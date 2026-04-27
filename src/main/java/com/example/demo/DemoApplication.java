@@ -14,7 +14,7 @@ public class DemoApplication {
 
     @GetMapping("/login")
     public String loginPage() {
-        return "<h2>Login Page1</h2>"
+        return "<h2>Login Page11</h2>"
              + "<form action='/check'>"
              + "User: <input name='u'><br><br>"
              + "Pass: <input name='p' type='password'><br><br>"
